@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: #fddde6;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="72.0" prefWidth="400.0" style="-fx-background-color: #b4eeb4;">
+         <children>
+            <ImageView fitHeight="49.0" fitWidth="55.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/avatar.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="63.0" layoutY="11.0" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #b4eeb4;" text="Kion">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </TextField>
+            <Circle fill="#0bd437" layoutX="76.0" layoutY="47.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <TextField layoutX="81.0" layoutY="34.0" prefHeight="26.0" prefWidth="145.0" style="-fx-background-color: #b4eeb4;" text="Online">
+               <font>
+                  <Font name="System Italic" size="10.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="304.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/phone_call.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="351.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/video_call.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="628.0" prefHeight="72.0" prefWidth="400.0" style="-fx-background-color: #b4eeb4;">
+         <children>
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="302.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/send.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="346.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/voice.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="21.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/album.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="79.0" layoutY="20.0" prefHeight="31.0" prefWidth="169.0" promptText=". . ." style="-fx-background-color: #ffe4e1;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="63.0" fitWidth="244.0" layoutX="156.0" layoutY="122.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/message.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="182.0" layoutY="133.0" text="How you doing mate?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="63.0" fitWidth="250.0" layoutX="153.0" layoutY="373.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/message.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="176.0" layoutY="384.0" text="You free this weekend?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="63.0" fitWidth="121.0" layoutX="14.0" layoutY="185.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/message%202.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="47.0" layoutY="196.0" text="Im good">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="63.0" fitWidth="133.0" layoutX="21.0" layoutY="287.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/E:/UET%20Course%20File/Code/OOP/demo/src/main/img/message%202.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="46.0" layoutY="298.0" text="Whats up?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
